@@ -88,5 +88,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(8080, '127.0.0.1', () => {
-  console.log('Listning to requests on port http://127.0.0.1:8000');
+  console.log('Listening to requests on port http://127.0.0.1:8080');
 });
